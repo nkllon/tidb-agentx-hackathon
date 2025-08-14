@@ -2,13 +2,16 @@
 
 **🎯 Hackathon Focus:** Forging agentic AI for real-world impact using TiDB Serverless
 
-**🏆 Prizes:** $30,500 in cash  
+**🏆 Prizes:** $30,500 in total prizes  
 **📅 Dates:** August 1 – September 15, 2025  
-**⏰ Deadline:** September 15, 2025
+**⏰ Deadline:** September 15, 2025 @ 11:45pm PDT  
+**🌐 Devpost:** [TiDB AgentX Hackathon 2025](https://tidb-2025-hackathon.devpost.com/)
 
 ## 🚀 Project Overview
 
 This repository contains our submission for the TiDB AgentX Hackathon 2025, showcasing multi-agent AI workflows with TiDB Serverless for real-world impact.
+
+**🏆 Key Goal:** Build multi-step AI agents that demonstrate real-world workflows, not just simple RAG demos.
 
 ## 🏗️ Architecture Components
 
@@ -41,27 +44,27 @@ This repository contains our submission for the TiDB AgentX Hackathon 2025, show
 ```
 tidb-agentx-hackathon/
 ├── src/
-│   ├── ai_agents/           # Multi-agent orchestration
-│   ├── tidb_integration/    # TiDB Serverless integration
-│   ├── data_processing/     # Data analysis and processing
-│   ├── workflows/           # Real-world AI workflows
-│   └── visualization/       # Interactive dashboards
+│   ├── ai_agents/              # Multi-agent orchestration
+│   ├── tidb_integration/       # TiDB Serverless integration
+│   ├── data_processing/        # Data analysis and processing
+│   ├── workflows/              # Real-world AI workflows
+│   └── visualization/          # Interactive dashboards
 ├── infrastructure/
-│   ├── tidb_setup/          # TiDB Serverless configuration
-│   ├── data_pipelines/      # ETL and data processing
-│   └── monitoring/          # Performance monitoring
+│   ├── tidb_setup/             # TiDB Serverless configuration
+│   ├── data_pipelines/         # ETL and data processing
+│   └── monitoring/             # Performance monitoring
 ├── docs/
-│   ├── architecture.md      # System architecture
-│   ├── tidb_integration.md  # TiDB setup and usage
-│   └── workflows.md         # AI workflow documentation
+│   ├── architecture.md         # System architecture
+│   ├── tidb_integration.md     # TiDB setup and usage
+│   └── workflows.md            # AI workflow documentation
 ├── data/
-│   ├── raw/                 # Raw data sources
-│   ├── processed/           # Processed datasets
-│   └── models/              # Trained AI models
+│   ├── raw/                    # Raw data sources
+│   ├── processed/              # Processed datasets
+│   └── models/                 # Trained AI models
 └── tests/
-    ├── unit/                # Unit tests
-    ├── integration/         # Integration tests
-    └── e2e/                 # End-to-end workflow tests
+    ├── unit/                   # Unit tests
+    ├── integration/            # Integration tests
+    └── e2e/                    # End-to-end workflow tests
 ```
 
 ## 🚀 Quick Start
@@ -132,7 +135,7 @@ pytest tests/tidb_integration/ -v
 
 ## 📝 Submission Strategy
 
-**Partial submission** focusing on multi-agent AI workflows with:
+**Multi-step AI agent submission** focusing on real-world workflows with:
 - TiDB Serverless integration for vector search
 - Multi-agent orchestration and testing
 - Real-world workflow demonstrations
@@ -156,6 +159,52 @@ pytest tests/tidb_integration/ -v
 - **Performance Metrics** - Measurable outcomes
 - **Scalable Solutions** - Production-ready architecture
 
+## 🏆 Hackathon Requirements
+
+### **What to Build:**
+Build multi-step AI agents that demonstrate real-world workflows using:
+- **Vector Search** - TiDB Serverless vector capabilities
+- **Full-Text Search** - Advanced text search functionality
+- **Model Context Protocol (MCP)** - LLM integration
+- **Multi-Step Workflows** - Complex agent orchestration
+
+### **Key Focus Areas:**
+- **Real-World Impact** - Solve actual business problems
+- **Multi-Step Agents** - Beyond simple Q&A to complex workflows
+- **TiDB Integration** - Leverage TiDB Serverless features
+- **Production Ready** - Deployable, scalable solutions
+
+## 📋 Submission Requirements
+
+### **Required Components:**
+1. **Working Multi-Step AI Agent** using TiDB Serverless
+2. **Demonstration Video** showing the application in action
+3. **Public Repository** with open source license
+4. **Data Flow Summary** outlining integrations
+5. **Run Instructions** for judges to test
+6. **Feature Description** explaining functionality
+
+### **Judging Criteria:**
+- **Technological Implementation (35 points)** - Quality and TiDB usage
+- **Quality/Creativity of Idea (25 points)** - Innovation and uniqueness
+- **User Experience (20 points)** - Frontend/backend balance
+- **Documentation Quality (10 points)** - Clear instructions
+- **Demo Video Quality (10 points)** - Under 4 minutes
+
+## 🎯 Use Cases
+
+### **Business Applications:**
+- **Customer Service** - Multi-step support workflows
+- **Data Analysis** - Complex analytical pipelines
+- **Process Automation** - End-to-end business processes
+- **Decision Support** - Multi-agent decision making
+
+### **Technical Applications:**
+- **Code Review** - Automated code analysis workflows
+- **Testing Automation** - Multi-step testing processes
+- **Deployment Pipelines** - Intelligent deployment workflows
+- **Monitoring Systems** - Proactive issue detection
+
 ## 🤝 Contributing
 
 This is a hackathon submission repository. For questions or collaboration, please contact the team.
@@ -167,3 +216,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ---
 
 **Built with ❤️ for the TiDB AgentX Hackathon 2025**
+
+**🏆 Total Prize Pool: $30,500**
+**⏰ Deadline: September 15, 2025 @ 11:45pm PDT**
+**🎯 Focus: Multi-step AI agents for real-world impact**
